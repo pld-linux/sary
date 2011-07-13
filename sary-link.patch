@@ -1,0 +1,10 @@
+--- sary-1.2.0/sary/Makefile.am~	2004-06-11 20:57:27.000000000 +0200
++++ sary-1.2.0/sary/Makefile.am	2011-07-13 22:14:52.556144500 +0200
+@@ -24,6 +24,7 @@
+ 			writer.c writer.h \
+ 			version.c
+ 
++libsary_la_LIBADD = 	@GLIB_LIBS@
+ libsary_la_LDFLAGS = 	-version-info $(LTVERSION) -export-dynamic
+ pkginclude_HEADERS = 	array.h bsearch.h builder.h cache.h i.h ipoint.h \
+ 			merger.h mkqsort.h mmap.h progress.h saryconfig.h \
