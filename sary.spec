@@ -33,6 +33,7 @@ Summary:	Header files for sary library
 Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki sary
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
+Requires:	glib2-devel
 
 %description devel
 Header files for sary library.
