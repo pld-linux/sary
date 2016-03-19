@@ -6,7 +6,7 @@ Summary:	Suffix array library
 Summary(pl.UTF-8):	Biblioteka tablic sufiksowych
 Name:		sary
 Version:	1.2.0
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Libraries
 Source0:	http://sary.sourceforge.net/%{name}-%{version}.tar.gz
